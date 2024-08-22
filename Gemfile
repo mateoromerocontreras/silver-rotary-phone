@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 
+gem 'jekyll', '~> 4.3'
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
-gem 'jekyll', '~> 4.2.0'
 gem 'html-proofer', '~> 5.0.9'
 gem 'async', '~> 2.15.3'
 gem 'nokogiri', '~> 1.16.7'
@@ -25,7 +25,3 @@ gem 'ethon', '~> 0.16.0'
 gem 'fiber-local', '~> 1.1.0'
 gem 'json', '~> 2.7.2'
 gem 'fiber-storage', '~> 1.0.0'
-
-group :test do
-  gem "html-proofer", "~> 5.0"
-end
