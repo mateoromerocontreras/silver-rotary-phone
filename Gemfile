@@ -25,3 +25,4 @@ gem 'ethon', '~> 0.16.0'
 gem 'fiber-local', '~> 1.1.0'
 gem 'json', '~> 2.7.2'
 gem 'fiber-storage', '~> 1.0.0'
+gem 'jekyll-compose', group: [:jekyll_plugins]
