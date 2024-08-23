@@ -29,18 +29,7 @@ echo 'No more line numbers!'
 ```
 {: .nolineno }
 
-```shell
-# content
-```
-{: file="path/to/file" }
 
-{% raw %}
-```liquid
-{% if product.title contains 'Pack' %}
-  This product's title contains the word Pack.
-{% endif %}
-```
-{% endraw %}
 
 ## Mathematics
 
